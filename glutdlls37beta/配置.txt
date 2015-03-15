@@ -1,0 +1,4 @@
+glut.dll,glut32.dll放入文件夹C:\Windows\SysWOW64（32位放在C:\Windows\System32）
+
+在VS2010的项目中随便找见一个系统库，右键->打开文档，在标签上右键->打开所在文件夹
+将glut.h放入include中，glut\glut32放入lib中
