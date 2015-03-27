@@ -1,0 +1,62 @@
+﻿生成启动时间为 2015/3/21 20:29:02。
+     1>项目“c:\Users\jihongwei\documents\visual studio 2013\Projects\GLProject_Fog\GLProject_Fog\GLProject_Fog.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Axis.cpp Camera.cpp Fog.cpp FrameTest.cpp GLFramework.cpp GlobalInit.cpp GLWindow.cpp Keys.cpp Light.cpp main.cpp MeshModel.cpp MouseLimit.cpp Object.cpp SkyBox.cpp SkyBoxData.cpp TankBarrel.cpp TankBarrelData.cpp TankChassis.cpp TankChassisData.cpp TankTurret.cpp TankTurretData.cpp Texture.cpp VertexArray.cpp
+         VertexArray.cpp
+         Texture.cpp
+         TankTurretData.cpp
+         TankTurret.cpp
+         TankChassisData.cpp
+         TankChassis.cpp
+         TankBarrelData.cpp
+         TankBarrel.cpp
+         SkyBoxData.cpp
+         SkyBox.cpp
+         Object.cpp
+         MouseLimit.cpp
+     1>c:\users\jihongwei\documents\visual studio 2013\projects\glproject_fog\glproject_fog\mouselimit.cpp(72): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\jihongwei\documents\visual studio 2013\projects\glproject_fog\glproject_fog\mouselimit.cpp(76): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+         MeshModel.cpp
+         main.cpp
+         Light.cpp
+         Keys.cpp
+         GLWindow.cpp
+         GlobalInit.cpp
+         GLFramework.cpp
+         FrameTest.cpp
+         正在生成代码...
+         正在编译...
+         Fog.cpp
+         Camera.cpp
+         Axis.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\jihongwei\documents\visual studio 2013\Projects\GLProject_Fog\Debug\GLProject_Fog.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\jihongwei\documents\visual studio 2013\Projects\GLProject_Fog\Debug\GLProject_Fog.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\jihongwei\documents\visual studio 2013\Projects\GLProject_Fog\Debug\GLProject_Fog.lib" /MACHINE:X86 Debug\Axis.obj
+         Debug\Camera.obj
+         Debug\Fog.obj
+         Debug\FrameTest.obj
+         Debug\GLFramework.obj
+         Debug\GlobalInit.obj
+         Debug\GLWindow.obj
+         Debug\Keys.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\MeshModel.obj
+         Debug\MouseLimit.obj
+         Debug\Object.obj
+         Debug\SkyBox.obj
+         Debug\SkyBoxData.obj
+         Debug\TankBarrel.obj
+         Debug\TankBarrelData.obj
+         Debug\TankChassis.obj
+         Debug\TankChassisData.obj
+         Debug\TankTurret.obj
+         Debug\TankTurretData.obj
+         Debug\Texture.obj
+         Debug\VertexArray.obj
+         GLProject_Fog.vcxproj -> c:\users\jihongwei\documents\visual studio 2013\Projects\GLProject_Fog\Debug\GLProject_Fog.exe
+     1>已完成生成项目“c:\Users\jihongwei\documents\visual studio 2013\Projects\GLProject_Fog\GLProject_Fog\GLProject_Fog.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.25
