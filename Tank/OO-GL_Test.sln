@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OO-GL_Test", "OO-GL_Test\OO-GL_Test.vcxproj", "{47C79A37-CD87-4C7D-921F-987454259936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47C79A37-CD87-4C7D-921F-987454259936}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47C79A37-CD87-4C7D-921F-987454259936}.Debug|Win32.Build.0 = Debug|Win32
+		{47C79A37-CD87-4C7D-921F-987454259936}.Release|Win32.ActiveCfg = Release|Win32
+		{47C79A37-CD87-4C7D-921F-987454259936}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

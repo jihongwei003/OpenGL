@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\DisplayAUX">
+      <UniqueIdentifier>{a0f73dac-0a6a-4396-862f-77b542ad7876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MouseAUX">
+      <UniqueIdentifier>{ddd084f8-4474-4325-a9bb-c826ad348ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MouseAUX">
+      <UniqueIdentifier>{826c90dd-0140-43ea-ae8b-45c332265e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DisplayAUX">
+      <UniqueIdentifier>{42d88684-8b50-425a-b0c5-875fe081aac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DisplayAUX\LoadModelAUX">
+      <UniqueIdentifier>{f150fe43-2d18-4a02-ae05-e20cc43e99e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DisplayAUX\LoadModelAUX">
+      <UniqueIdentifier>{01799c2d-3cfb-4bcd-b9c3-123ad3e76731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\KeyboardAUX">
+      <UniqueIdentifier>{13a0af06-010f-4fb4-a7e2-0995c253cc97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\KeyboardAUX">
+      <UniqueIdentifier>{8d68ca0c-c2ec-4eb5-9194-70b598a6ee02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Object">
+      <UniqueIdentifier>{b4c5032d-8285-47e6-8f35-8934f50edd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Object">
+      <UniqueIdentifier>{cca48efe-1042-41b1-8de4-e10a59cde884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Object\Tank">
+      <UniqueIdentifier>{c0910c9e-2290-4d49-b073-3ec1414cfaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Object\Tank">
+      <UniqueIdentifier>{7bda09af-8fce-4562-8d24-cd1d16423b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ObjectModelData">
+      <UniqueIdentifier>{3ab9f26a-1a10-452d-a485-0fceba5ed485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ObjectModelData\TankData">
+      <UniqueIdentifier>{ad6306b2-a996-4959-aac0-05831543cc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ObjectModelData">
+      <UniqueIdentifier>{6ade9e2f-5cda-4f9a-a797-cb87483543cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ObjectModelData\TankData">
+      <UniqueIdentifier>{f4062c26-a703-433c-876b-5e7ff4f1da45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Definition&amp;Tools">
+      <UniqueIdentifier>{3f49d68c-5140-4391-bce0-a36d2fd01080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Definition&amp;Tools\MapAUX">
+      <UniqueIdentifier>{5f1972d8-390f-49b3-920d-e94a0bcc634c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Interface">
+      <UniqueIdentifier>{e4493cd8-2cc2-4d7e-8012-48a88f0ebbcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFramework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseLimit.h">
+      <Filter>头文件\MouseAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>头文件\DisplayAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\DisplayAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="MapFunction.h">
+      <Filter>头文件\Definition&amp;Tools\MapAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearMap.h">
+      <Filter>头文件\Definition&amp;Tools\MapAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModel.h">
+      <Filter>头文件\DisplayAUX\LoadModelAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>头文件\DisplayAUX\LoadModelAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>头文件\DisplayAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPlane.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPlaneData.h">
+      <Filter>头文件\ObjectModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys.h">
+      <Filter>头文件\KeyboardAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="MathConst.h">
+      <Filter>头文件\Definition&amp;Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>头文件\DisplayAUX\LoadModelAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectToAxis.h">
+      <Filter>头文件\Definition&amp;Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Fog.h">
+      <Filter>头文件\DisplayAUX</Filter>
+    </ClInclude>
+    <ClInclude Include="TankBarrelData.h">
+      <Filter>头文件\ObjectModelData\TankData</Filter>
+    </ClInclude>
+    <ClInclude Include="TankChassisData.h">
+      <Filter>头文件\ObjectModelData\TankData</Filter>
+    </ClInclude>
+    <ClInclude Include="TankTurretData.h">
+      <Filter>头文件\ObjectModelData\TankData</Filter>
+    </ClInclude>
+    <ClInclude Include="TankTurret.h">
+      <Filter>头文件\Object\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="TankChassis.h">
+      <Filter>头文件\Object\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="TankBarrel.h">
+      <Filter>头文件\Object\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="UseDisplayList.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllable.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Movable.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="TankShell.h">
+      <Filter>头文件\Object\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="TankShellData.h">
+      <Filter>头文件\ObjectModelData\TankData</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxData.h">
+      <Filter>头文件\ObjectModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalInit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFramework.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseLimit.cpp">
+      <Filter>源文件\MouseAUX</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>源文件\DisplayAUX</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\DisplayAUX</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>源文件\DisplayAUX\LoadModelAUX</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel.cpp">
+      <Filter>源文件\DisplayAUX\LoadModelAUX</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>源文件\DisplayAUX\LoadModelAUX</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>源文件\DisplayAUX</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>源文件\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlane.cpp">
+      <Filter>源文件\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlaneData.cpp">
+      <Filter>源文件\ObjectModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="Keys.cpp">
+      <Filter>源文件\KeyboardAUX</Filter>
+    </ClCompile>
+    <ClCompile Include="Fog.cpp">
+      <Filter>源文件\DisplayAUX</Filter>
+    </ClCompile>
+    <ClCompile Include="TankBarrelData.cpp">
+      <Filter>源文件\ObjectModelData\TankData</Filter>
+    </ClCompile>
+    <ClCompile Include="TankChassisData.cpp">
+      <Filter>源文件\ObjectModelData\TankData</Filter>
+    </ClCompile>
+    <ClCompile Include="TankTurretData.cpp">
+      <Filter>源文件\ObjectModelData\TankData</Filter>
+    </ClCompile>
+    <ClCompile Include="TankBarrel.cpp">
+      <Filter>源文件\Object\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="TankChassis.cpp">
+      <Filter>源文件\Object\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="TankTurret.cpp">
+      <Filter>源文件\Object\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="TankShell.cpp">
+      <Filter>源文件\Object\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="TankShellData.cpp">
+      <Filter>源文件\ObjectModelData\TankData</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>源文件\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxData.cpp">
+      <Filter>源文件\ObjectModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalInit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
