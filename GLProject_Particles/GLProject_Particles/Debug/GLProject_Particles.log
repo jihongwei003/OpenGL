@@ -1,0 +1,53 @@
+﻿生成启动时间为 2015/3/28 12:52:16。
+     1>项目“c:\Users\jihongwei\documents\visual studio 2013\Projects\GLProject_Particles\GLProject_Particles\GLProject_Particles.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Axis.cpp Camera.cpp Fireworks.cpp FireworksFrame.cpp GLFramework.cpp GlobalInit.cpp GLWindow.cpp Keys.cpp Light.cpp main.cpp MeshModel.cpp MouseLimit.cpp Object.cpp Particles.cpp ParticleSys.cpp Tail.cpp Texture.cpp VertexArray.cpp
+         VertexArray.cpp
+         Texture.cpp
+         Tail.cpp
+     1>c:\users\jihongwei\documents\visual studio 2013\projects\glproject_particles\glproject_particles\tail.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+         ParticleSys.cpp
+     1>c:\users\jihongwei\documents\visual studio 2013\projects\glproject_particles\glproject_particles\particlesys.h(41): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+         Particles.cpp
+         Object.cpp
+         MouseLimit.cpp
+     1>c:\users\jihongwei\documents\visual studio 2013\projects\glproject_particles\glproject_particles\mouselimit.cpp(72): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\jihongwei\documents\visual studio 2013\projects\glproject_particles\glproject_particles\mouselimit.cpp(76): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+         MeshModel.cpp
+         main.cpp
+         Light.cpp
+         Keys.cpp
+         GLWindow.cpp
+         GlobalInit.cpp
+         GLFramework.cpp
+         FireworksFrame.cpp
+         Fireworks.cpp
+     1>c:\users\jihongwei\documents\visual studio 2013\projects\glproject_particles\glproject_particles\particlesys.h(41): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+         Camera.cpp
+         Axis.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\jihongwei\documents\visual studio 2013\Projects\GLProject_Particles\Debug\GLProject_Particles.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\jihongwei\documents\visual studio 2013\Projects\GLProject_Particles\Debug\GLProject_Particles.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\jihongwei\documents\visual studio 2013\Projects\GLProject_Particles\Debug\GLProject_Particles.lib" /MACHINE:X86 Debug\Axis.obj
+         Debug\Camera.obj
+         Debug\Fireworks.obj
+         Debug\FireworksFrame.obj
+         Debug\GLFramework.obj
+         Debug\GlobalInit.obj
+         Debug\GLWindow.obj
+         Debug\Keys.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\MeshModel.obj
+         Debug\MouseLimit.obj
+         Debug\Object.obj
+         Debug\Particles.obj
+         Debug\ParticleSys.obj
+         Debug\Tail.obj
+         Debug\Texture.obj
+         Debug\VertexArray.obj
+         GLProject_Particles.vcxproj -> c:\users\jihongwei\documents\visual studio 2013\Projects\GLProject_Particles\Debug\GLProject_Particles.exe
+     1>已完成生成项目“c:\Users\jihongwei\documents\visual studio 2013\Projects\GLProject_Particles\GLProject_Particles\GLProject_Particles.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.29
