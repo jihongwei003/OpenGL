@@ -1,0 +1,11 @@
+fmodex.dll放在C\windows\Sys64下
+
+所有头文件放在VS\include下
+
+fmodex_vc放在VS\lib下
+
+程序中：
+#include "fmod.hpp"
+#include "fmod_errors.h"
+
+#pragma comment(lib, "fmodex_vc.lib")
