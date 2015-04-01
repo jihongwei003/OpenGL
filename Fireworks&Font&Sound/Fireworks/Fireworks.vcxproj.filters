@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Particles">
+      <UniqueIdentifier>{2925dfd3-2366-4686-adfd-ca836022dd0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Particles">
+      <UniqueIdentifier>{e50f4ce3-79ce-48aa-8e00-1cfdf65e7c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Font">
+      <UniqueIdentifier>{63a6b12d-dc39-49f6-9de3-29481b68180a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Font">
+      <UniqueIdentifier>{0cc9a237-cdc9-4809-b398-1a6dd441e1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Sound">
+      <UniqueIdentifier>{1d97a24b-b83d-46a0-94a0-317fa442bc4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sound">
+      <UniqueIdentifier>{5d4d861b-c331-4479-95ba-0a6a7d1623f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFramework.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalInit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Keys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseLimit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>源文件\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSys.cpp">
+      <Filter>源文件\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="FireworksFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireworks.cpp">
+      <Filter>源文件\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Tail.cpp">
+      <Filter>源文件\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintFont.cpp">
+      <Filter>源文件\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Print2DFont.cpp">
+      <Filter>源文件\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Print3DFont.cpp">
+      <Filter>源文件\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSys.cpp">
+      <Filter>源文件\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Axis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFramework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalInit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MapFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MathConst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseLimit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Movable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectToAxis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UseDisplayList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>头文件\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSys.h">
+      <Filter>头文件\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="FireworksFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireworks.h">
+      <Filter>头文件\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tail.h">
+      <Filter>头文件\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Print2DFont.h">
+      <Filter>头文件\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintFont.h">
+      <Filter>头文件\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Print3DFont.h">
+      <Filter>头文件\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSys.h">
+      <Filter>头文件\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
