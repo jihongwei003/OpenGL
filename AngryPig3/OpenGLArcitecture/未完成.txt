@@ -1,0 +1,25 @@
+Camera没有设置视野角度的功能
+现在Camera::updatePerspective默认使用120°视角。以后应加入自定义视角的功能
+
+光照还不能设定散射光方向
+光照还不能设定镜面成分及位置
+
+World::World应用的是默认光照。以后应该去掉，改为自定义光照
+
+main中还有未封装的openGL函数
+
+Mesh类不能设置纹理来源
+
+World在初始化时应该打开光照。现在为：关闭
+
+Mesh类不要使用GLenum。应该使用固有的枚举类型。这样用户不必#include <glut>
+
+Camera当屏幕大小改变时，视野角度应该也改变
+
+loadMesh方法改放在Mesh类里？现在在SolidObject里
+
+Mesh的析构方法不必调用clear方法。待验证
+	
+子弹飞得太远自动删除！
+createBullet创建的子弹要记得删除（delete）！
+createBird创建的鸟要删除——现在删除导致崩溃

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\world">
+      <UniqueIdentifier>{29b49246-fca5-498b-8c01-0c8ff7627d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tool">
+      <UniqueIdentifier>{3768053f-1eff-4288-99bb-abb576a1dc29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tool">
+      <UniqueIdentifier>{79548520-185a-4e52-bc54-515d2b30aa3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\world">
+      <UniqueIdentifier>{4e0e536a-e696-41fc-a448-3b29eb365cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\model">
+      <UniqueIdentifier>{96514261-16d7-4468-b8d0-c7d2adb735c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\model">
+      <UniqueIdentifier>{42e94d8d-cb06-4472-ad64-585e3300ce62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="world\Mesh.cpp">
+      <Filter>源文件\world</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseController.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="world\Camera.cpp">
+      <Filter>源文件\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\World.cpp">
+      <Filter>源文件\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\Light.cpp">
+      <Filter>源文件\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\VertexArray.cpp">
+      <Filter>源文件\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="world\SolidObject.cpp">
+      <Filter>源文件\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\WorldObject.cpp">
+      <Filter>源文件\world</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GunBarrel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model\GunBarrelData.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mountain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model\MountainData.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model\CastleData.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\PigData.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\BirdData.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Pig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model\BowData.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="world\DynamicObject.cpp">
+      <Filter>源文件\world</Filter>
+    </ClCompile>
+    <ClCompile Include="model\GunBaseData.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="GunBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model\BulletData.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="world\Mesh.h">
+      <Filter>头文件\world</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseController.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="MapFunction.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearMap.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="world\Camera.h">
+      <Filter>头文件\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\World.h">
+      <Filter>头文件\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\Light.h">
+      <Filter>头文件\world</Filter>
+    </ClInclude>
+    <ClInclude Include="MathConst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="world\VertexArray.h">
+      <Filter>头文件\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="world\WorldObject.h">
+      <Filter>头文件\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\SolidObject.h">
+      <Filter>头文件\world</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBarrel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model\GunBarrelData.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mountain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model\MountainData.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model\CastleData.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\PigData.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\BirdData.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Pig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model\BowData.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="world\DynamicObject.h">
+      <Filter>头文件\world</Filter>
+    </ClInclude>
+    <ClInclude Include="model\GunBaseData.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model\BulletData.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3f.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsConst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="未完成.txt">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="修改的.txt">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7286CD0B-B07A-43FB-8B0C-5F19D1264929}</ProjectGuid>
+    <RootNamespace>OpenGLArcitecture</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Axis.cpp" />
+    <ClCompile Include="Bird.cpp" />
+    <ClCompile Include="Bow.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Castle.cpp" />
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="GunBarrel.cpp" />
+    <ClCompile Include="GunBase.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="model\BirdData.cpp" />
+    <ClCompile Include="model\BowData.cpp" />
+    <ClCompile Include="model\BulletData.cpp" />
+    <ClCompile Include="model\CastleData.cpp" />
+    <ClCompile Include="model\GunBarrelData.cpp" />
+    <ClCompile Include="model\GunBaseData.cpp" />
+    <ClCompile Include="model\MountainData.cpp" />
+    <ClCompile Include="model\PigData.cpp" />
+    <ClCompile Include="Mountain.cpp" />
+    <ClCompile Include="MouseController.cpp" />
+    <ClCompile Include="Pig.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="world\Camera.cpp" />
+    <ClCompile Include="world\DynamicObject.cpp" />
+    <ClCompile Include="world\Light.cpp" />
+    <ClCompile Include="world\Mesh.cpp" />
+    <ClCompile Include="world\SolidObject.cpp" />
+    <ClCompile Include="world\VertexArray.cpp" />
+    <ClCompile Include="world\World.cpp" />
+    <ClCompile Include="world\WorldObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Axis.h" />
+    <ClInclude Include="Bird.h" />
+    <ClInclude Include="Bow.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Castle.h" />
+    <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="GunBarrel.h" />
+    <ClInclude Include="GunBase.h" />
+    <ClInclude Include="LinearMap.h" />
+    <ClInclude Include="MapFunction.h" />
+    <ClInclude Include="MathConst.h" />
+    <ClInclude Include="model\BirdData.h" />
+    <ClInclude Include="model\BowData.h" />
+    <ClInclude Include="model\BulletData.h" />
+    <ClInclude Include="model\CastleData.h" />
+    <ClInclude Include="model\GunBarrelData.h" />
+    <ClInclude Include="model\GunBaseData.h" />
+    <ClInclude Include="model\MountainData.h" />
+    <ClInclude Include="model\PigData.h" />
+    <ClInclude Include="Mountain.h" />
+    <ClInclude Include="MouseController.h" />
+    <ClInclude Include="PhysicsConst.h" />
+    <ClInclude Include="Pig.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Vector3f.h" />
+    <ClInclude Include="world\Camera.h" />
+    <ClInclude Include="world\DynamicObject.h" />
+    <ClInclude Include="world\Light.h" />
+    <ClInclude Include="world\Mesh.h" />
+    <ClInclude Include="world\SolidObject.h" />
+    <ClInclude Include="world\VertexArray.h" />
+    <ClInclude Include="world\World.h" />
+    <ClInclude Include="world\WorldObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="修改的.txt" />
+    <None Include="未完成.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
